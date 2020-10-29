@@ -1,5 +1,7 @@
 #!/bin/sh -e
 
+clamd &
+
 mkdir -p /var/run/c-icap
 chown c-icap:c-icap /var/run/c-icap
 
